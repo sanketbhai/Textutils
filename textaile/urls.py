@@ -20,5 +20,16 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.index,name='index'),
-    path('about',views.about,name='about'),
+    
+    # code of first 6videos
+   # path('about',views.about,name='about'),
+   
+   
+   
+   path('removepunk',views.removepunk,name='removepunk'),
+   path('capitalizefirst',views.capitalizefirst,name='capitalizefirst'),
+   path('newlinermv',views.newlinermv,name='newlinermv'),
+   path('charcount',views.charcount,name='charcount'),
+   path('spacermv',views.spacermv,name='spacermv'),
+   
 ]
